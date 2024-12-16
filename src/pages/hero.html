@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- AOS Animation Library -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</head>
+<body>
+    <section id="hero" class="bg-gray-900 min-h-screen flex flex-col items-center justify-center">
+        <img src="src/assets/img/wab.jpg" alt="" data-aos="fade-in" class="aos-init aos-animate">
+      
+        <div class="container mx-auto flex flex-col items-center justify-center text-center" data-aos="fade-up" data-aos-delay="100">
+          <h2 class="text-white text-4xl font-bold mb-4">I am Morgan Freeman</h2>
+          <p class="text-gray-300 text-lg">
+            <span id="typed-text">Developer</span>
+            <span id="typed-cursor" class="typed-cursor typed-cursor--blink" aria-hidden="true">|</span>
+          </p>
+        </div>
+      </section>
+      
+      <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          const typedTextElement = document.getElementById('typed-text');
+          const cursorElement = document.getElementById('typed-cursor');
+          
+          const words = ["Designer", "Developer", "Freelancer", "Photographer"];
+          let wordIndex = 0;
+          let charIndex = 0;
+          let typingDelay = 100;  // Speed of typing
+          let erasingDelay = 50;  // Speed of erasing
+          let newWordDelay = 2000;  // Delay before starting to type a new word
+      
+          function type() {
+            if (charIndex < words[wordIndex].length) {
+              typedTextElement.textContent += words[wordIndex].charAt(charIndex);
+              charIndex++;
+              setTimeout(type, typingDelay);
+            } else {
+              setTimeout(erase, newWordDelay);
+            }
+          }
+      
+          function erase() {
+            if (charIndex > 0) {
+              typedTextElement.textContent = words[wordIndex].substring(0, charIndex - 1);
+              charIndex--;
+              setTimeout(erase, erasingDelay);
+            } else {
+              wordIndex = (wordIndex + 1) % words.length;  // Move to next word
+              setTimeout(type, typingDelay + 500);
+            }
+          }
+      
+          // Initial delay before typing starts
+          setTimeout(type, newWordDelay);
+        });
+   
+   
+   
+   
+   </script>
+
+
+<div id="menu" class="hidden bg-gray-100 shadow-lg p-4">
+    <ul>
+      <li class="py-2"><a href="#" class="text-blue-500">Home</a></li>
+      <li class="py-2"><a href="#" class="text-blue-500">About</a></li>
+      <li class="py-2"><a href="#" class="text-blue-500">Contact</a></li>
+    </ul>
+  </div>
+  
+  <button id="toggleBtn" class="text-white bg-blue-500 p-2 rounded">Toggle Menu</button>
+  
+  <script>
+    document.getElementById('toggleBtn').addEventListener('click', function () {
+      const menu = document.getElementById('menu');
+      menu.classList.toggle('hidden');
+    });
+  </script>
+  
+
+
+
+      <div class="relative" x-data="{ open: false }">
+  <button @click="open = !open" class="text-white bg-blue-500 p-2 rounded">
+    Open Dropdown
+  </button>
+
+  <div x-show="open" class="absolute mt-2 w-48 bg-white shadow-lg">
+    <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Option 1</a>
+    <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Option 2</a>
+    <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Option 3</a>
+  </div>
+</div>
+
+       
+</body>
+</html>
