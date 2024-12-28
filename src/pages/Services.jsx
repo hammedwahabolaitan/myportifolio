@@ -34,7 +34,7 @@ const Services = () => {
   return (
     <div>
       <section id="Services" className="px-[4%] py-[3%] text-center bg-slate-200">
-      <h1 className="auto-type lg:text-[50px] font-[500] pb-4 drop-shadow  max-sm:text-[40px] md:text-[50px] text-center">
+      <h1 className="auto-type lg:text-[50px] font-[500] pb-4 drop-shadow  max-sm:text-[40px] md:text-[50px] text-center font-serif">
         My Work
       </h1>
       <p className="leading-relax lg:text-[20px] text-[20px] text-[#3c406883] text-center md:text-[25px]">

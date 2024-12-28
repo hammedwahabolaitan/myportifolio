@@ -44,8 +44,11 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h6 className="text-lg font-semibold">Contact us</h6>
-                    <p>+2348107450970</p>
+                    <a href="https://wa.link/3qn25y">
                     <p>+2349050220726</p>
+                    <p>https://wa.link/3qn25y</p>
+                    
+                    </a>
                   </div>
                 </li>
                 <li className="flex space-x-4 items-start">
@@ -64,8 +67,11 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h6 className="text-lg font-semibold">Email</h6>
+                    <a href="olaitanwahabhammed@gmail.com">
                     <p>olaitanwahabhammed@gmail.com</p>
                     <p>olaitanwahabhammed@gmail.com</p>
+
+                    </a>
                   </div>
                 </li>
                 <li className="flex space-x-4 items-start">
@@ -74,8 +80,11 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h6 className="text-lg font-semibold">Fax</h6>
+                    <a href="olaitanwahabhammed@gmail.com">
                     <p>olaitanwahabhammed@gmail.com</p>
                     <p>olaitanwahabhammed@gmail.com</p>
+
+                    </a>
                   </div>
                 </li>
               </ul>
@@ -135,9 +144,9 @@ const ContactPage = () => {
                 ></textarea>
               </div>
               <div>
-                <button className="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600">
+                <a href="https://wa.link/3qn25y"><button className="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600">
                   Send Your Message
-                </button>
+                </button></a>
               </div>
             </form>
           </div>

@@ -1,6 +1,6 @@
 const AboutSection = () => {
     return (
-      <section id="about" className="about section py-10 shadow-lg">
+      <section id="about" className="about section py-20 shadow-lg">
         <div className="container mx-auto px-4" data-aos="fade-up" data-aos-delay="100">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             

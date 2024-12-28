@@ -40,11 +40,20 @@ const projects = [
 
   {
     image: 'src/assets/img/Screenshot (87).png',
-    title: 'w3-blog',
-    description: 'this is blog single page built with html,and css',
+    title: 'ozun',
+    description: 'this is ozun single page built with html,and css',
     technologies: ['HTML', 'CSS'],
     liveLink: 'https://ozun.vercel.app/',
     codeLink: 'https://github.com/hammedwahabolaitan/ozun.git',
+  },
+
+  {
+    image: 'src/assets/img/Screenshot (92).png',
+    title: 'my blog',
+    description: 'This is a dynamic blog page work with back-end built with html,css,and JavaScript && react frame work',
+    technologies: ['html', 'css', 'JavaScript', 'react'],
+    liveLink: 'https://blog-pied-tau.vercel.app/',
+    codeLink: 'https://github.com/hammedwahabolaitan/blog',
   },
   // Add other projects here
 ];
@@ -52,8 +61,8 @@ const portfolio = () => {
   return (
     <div>
         <Header />
-      <section id="portfolio" className="px-[4%] py-[3%] text-center bg-slate-00">
-      <h1 className="auto-type lg:text-[50px] font-[500] pb-4 drop-shadow  max-sm:text-[40px] md:text-[50px] text-center">
+      <section id="portfolio" className="px-[4%] my-20 text-center bg-slate-00">
+      <h1 className="auto-type lg:text-[50px] font-[500] pb-4 drop-shadow  max-sm:text-[40px] md:text-[50px] text-center font-serif">
         My Portfolio
       </h1>
       <p className="leading-relax lg:text-[20px] text-[20px] text-[#3c406883] text-center md:text-[25px]">

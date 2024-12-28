@@ -6,12 +6,7 @@ import Review from '../component/REVIEW'
 import AboutSection from '../component/About'
 import ResumeSection from '../component/Resume'
 import Services from './Services'
-import Blog from '../component/Blog'
 import Footers from './Footers'
-import FaqSection from '../component/Faq'
-// import Footer from '../pages/Footer'
-// import ContactPage from '../component/ContactPage'
-// import SpecialProduct from './SpecialProduct'
 export default function HomePage() {
   return (
     <div>
@@ -22,11 +17,7 @@ export default function HomePage() {
       <Services />
       <Review />
       <Footers/>
-      <Blog />
-      <FaqSection />
-{/* <ContactPage /> */}
-{/* <SpecialProduct /> */}
-<Modal />
+      <Modal />
     </div>
   )
 }
