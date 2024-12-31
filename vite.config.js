@@ -1,7 +1,6 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-
-// https://vitejs.dev/config/
+import { defineConfig } from 'vite';
+import rewriteAll from 'vite-plugin-rewrite-all';
+ import react from '@vitejs/plugin-react'
 export default defineConfig({
-  plugins: [react()],
-})
+  plugins: [rewriteAll,react()],
+});

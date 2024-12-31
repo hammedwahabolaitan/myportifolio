@@ -5,10 +5,6 @@ import './index.css'
 import 'primeicons/primeicons.css';
 import "slick-carousel/slick/slick.css"; 
 
-import { SpeedInsights } from "@vercel/speed-insights/react"
-
-        
-
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
