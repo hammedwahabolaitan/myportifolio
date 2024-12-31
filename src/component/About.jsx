@@ -9,7 +9,7 @@ const AboutSection = () => {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                 <div className="col-span-1">
                   <img
-                    src="src/assets/img/IMG_20220320_132656~2.jpg"
+                    src="/image/IMG_20220320_132656~2.jpg"
                     alt="Profile"
                     className="img-fluid rounded-lg shadow-lg h-[40vh] "
                   />

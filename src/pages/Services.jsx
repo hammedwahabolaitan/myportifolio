@@ -3,7 +3,7 @@ import ProjectCard from './ProjectCard';
 
 const projects = [
   {
-    image: 'src/assets/img/Screenshot (78).png',
+    image: '/image/Screenshot (78).png',
     title: 'traing-studio',
     description: 'This is a web-App built with html,css,and JavaScript',
     technologies: ['html', 'css', 'JavaScript'],
@@ -11,7 +11,7 @@ const projects = [
     codeLink: 'https://github.com/hammedwahabolaitan/training-studio',
   },
   {
-    image: 'src/assets/img/Screenshot (82).png',
+    image: '/image/Screenshot (82).png',
     title: 'wabrace',
     description: 'This is a web-App built with React, JavaScript, and Tailwind',
     technologies: ['React', 'JavaScript', 'Tailwind'],
@@ -20,7 +20,7 @@ const projects = [
   },
  
   {
-    image: 'src/assets/img/Screenshot (79).png',
+    image: '/image/Screenshot (79).png',
     title: 'w3-blog',
     description: 'this is blog single page built with html,and css',
     technologies: ['HTML', 'CSS'],

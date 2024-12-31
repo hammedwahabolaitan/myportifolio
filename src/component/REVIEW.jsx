@@ -37,7 +37,7 @@ export default function Review() {
               <div className="testimonial-description">
                 <div className="testimonial-info flex items-center mb-4">
                   <div className="testimonial-img w-16 h-16 rounded-full overflow-hidden mr-4">
-                    <img src="src/assets/img/wab.jpg" className="w-full h-full object-cover" alt="Client" />
+                    <img src="/image/wab.jpg" className="w-full h-full object-cover" alt="Client" />
                   </div>
                   <div className="testimonial-person">
                     <h2 className="text-xl font-semibold text-gray-800">Tom Leakar</h2>
@@ -66,7 +66,7 @@ export default function Review() {
               <div className="testimonial-description">
                 <div className="testimonial-info flex items-center mb-4">
                   <div className="testimonial-img w-16 h-16 rounded-full overflow-hidden mr-4">
-                    <img src="src/assets/img/wab.jpg" className="w-full h-full object-cover" alt="Client" />
+                    <img src="/image/wab.jpg" className="w-full h-full object-cover" alt="Client" />
                   </div>
                   <div className="testimonial-person">
                     <h2 className="text-xl font-semibold text-gray-800">Tom Leakar</h2>
@@ -92,7 +92,7 @@ export default function Review() {
               <div className="testimonial-description">
                 <div className="testimonial-info flex items-center mb-4">
                   <div className="testimonial-img w-16 h-16 rounded-full overflow-hidden mr-4">
-                    <img src="src/assets/img/wab.jpg" className="w-full h-full object-cover" alt="Client" />
+                    <img src="/image/wab.jpg" className="w-full h-full object-cover" alt="Client" />
                   </div>
                   <div className="testimonial-person">
                     <h2 className="text-xl font-semibold text-gray-800">Tom Leakar</h2>
@@ -117,33 +117,7 @@ export default function Review() {
               <div className="testimonial-description">
                 <div className="testimonial-info flex items-center mb-4">
                   <div className="testimonial-img w-16 h-16 rounded-full overflow-hidden mr-4">
-                    <img src="src/assets/img/wab.jpg" className="w-full h-full object-cover" alt="Client" />
-                  </div>
-                  <div className="testimonial-person">
-                    <h2 className="text-xl font-semibold text-gray-800">Tom Leakar</h2>
-                    <h4 className="text-gray-500">London, UK</h4>
-                    <div className="testimonial-person-star flex mt-2">
-                      <i className="pi pi-star text-yellow-500"></i>
-                      <i className="pi pi-star text-yellow-500"></i>
-                      <i className="pi pi-star text-yellow-500"></i>
-                      <i className="pi pi-star text-yellow-500"></i>
-                      <i className="pi pi-star text-yellow-500"></i>
-                    </div>
-                  </div>
-                </div>
-                <div className="testimonial-comment">
-                  <p className="text-gray-600">
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis eaque.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="single-testimonial-box bg-white p-6 rounded-lg shadow-lg flex-shrink-0 w-full sm:w-1/3">
-              <div className="testimonial-description">
-                <div className="testimonial-info flex items-center mb-4">
-                  <div className="testimonial-img w-16 h-16 rounded-full overflow-hidden mr-4">
-                    <img src="src/assets/img/wab.jpg" className="w-full h-full object-cover" alt="Client" />
+                    <img src="/image/wab.jpg" className="w-full h-full object-cover" alt="Client" />
                   </div>
                   <div className="testimonial-person">
                     <h2 className="text-xl font-semibold text-gray-800">Tom Leakar</h2>
@@ -169,7 +143,7 @@ export default function Review() {
               <div className="testimonial-description">
                 <div className="testimonial-info flex items-center mb-4">
                   <div className="testimonial-img w-16 h-16 rounded-full overflow-hidden mr-4">
-                    <img src="src/assets/img/wab.jpg" className="w-full h-full object-cover" alt="Client" />
+                    <img src="/image/wab.jpg" className="w-full h-full object-cover" alt="Client" />
                   </div>
                   <div className="testimonial-person">
                     <h2 className="text-xl font-semibold text-gray-800">Tom Leakar</h2>
@@ -195,32 +169,7 @@ export default function Review() {
               <div className="testimonial-description">
                 <div className="testimonial-info flex items-center mb-4">
                   <div className="testimonial-img w-16 h-16 rounded-full overflow-hidden mr-4">
-                    <img src="src/assets/img/wab.jpg" className="w-full h-full object-cover" alt="Client" />
-                  </div>
-                  <div className="testimonial-person">
-                    <h2 className="text-xl font-semibold text-gray-800">Tom Leakar</h2>
-                    <h4 className="text-gray-500">London, UK</h4>
-                    <div className="testimonial-person-star flex mt-2">
-                      <i className="pi pi-star text-yellow-500"></i>
-                      <i className="pi pi-star text-yellow-500"></i>
-                      <i className="pi pi-star text-yellow-500"></i>
-                      <i className="pi pi-star text-yellow-500"></i>
-                      <i className="pi pi-star text-yellow-500"></i>
-                    </div>
-                  </div>
-                </div>
-                <div className="testimonial-comment">
-                  <p className="text-gray-600">
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis eaque.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="single-testimonial-box bg-white p-6 rounded-lg shadow-lg flex-shrink-0 w-full sm:w-1/3">
-              <div className="testimonial-description">
-                <div className="testimonial-info flex items-center mb-4">
-                  <div className="testimonial-img w-16 h-16 rounded-full overflow-hidden mr-4">
-                    <img src="src/assets/img/wab.jpg" className="w-full h-full object-cover" alt="Client" />
+                    <img src="/image/wab.jpg" className="w-full h-full object-cover" alt="Client" />
                   </div>
                   <div className="testimonial-person">
                     <h2 className="text-xl font-semibold text-gray-800">Tom Leakar</h2>
@@ -246,7 +195,7 @@ export default function Review() {
               <div className="testimonial-description">
                 <div className="testimonial-info flex items-center mb-4">
                   <div className="testimonial-img w-16 h-16 rounded-full overflow-hidden mr-4">
-                    <img src="src/assets/img/wab.jpg" className="w-full h-full object-cover" alt="Client" />
+                    <img src="/image/wab.jpg" className="w-full h-full object-cover" alt="Client" />
                   </div>
                   <div className="testimonial-person">
                     <h2 className="text-xl font-semibold text-gray-800">Tom Leakar</h2>
@@ -271,7 +220,33 @@ export default function Review() {
               <div className="testimonial-description">
                 <div className="testimonial-info flex items-center mb-4">
                   <div className="testimonial-img w-16 h-16 rounded-full overflow-hidden mr-4">
-                    <img src="src/assets/img/wab.jpg" className="w-full h-full object-cover" alt="Client" />
+                    <img src="/image/wab.jpg" className="w-full h-full object-cover" alt="Client" />
+                  </div>
+                  <div className="testimonial-person">
+                    <h2 className="text-xl font-semibold text-gray-800">Tom Leakar</h2>
+                    <h4 className="text-gray-500">London, UK</h4>
+                    <div className="testimonial-person-star flex mt-2">
+                      <i className="pi pi-star text-yellow-500"></i>
+                      <i className="pi pi-star text-yellow-500"></i>
+                      <i className="pi pi-star text-yellow-500"></i>
+                      <i className="pi pi-star text-yellow-500"></i>
+                      <i className="pi pi-star text-yellow-500"></i>
+                    </div>
+                  </div>
+                </div>
+                <div className="testimonial-comment">
+                  <p className="text-gray-600">
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis eaque.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="single-testimonial-box bg-white p-6 rounded-lg shadow-lg flex-shrink-0 w-full sm:w-1/3">
+              <div className="testimonial-description">
+                <div className="testimonial-info flex items-center mb-4">
+                  <div className="testimonial-img w-16 h-16 rounded-full overflow-hidden mr-4">
+                    <img src="/image/wab.jpg" className="w-full h-full object-cover" alt="Client" />
                   </div>
                   <div className="testimonial-person">
                     <h2 className="text-xl font-semibold text-gray-800">Tom Leakar</h2>
@@ -296,7 +271,32 @@ export default function Review() {
               <div className="testimonial-description">
                 <div className="testimonial-info flex items-center mb-4">
                   <div className="testimonial-img w-16 h-16 rounded-full overflow-hidden mr-4">
-                    <img src="src/assets/img/wab.jpg" className="w-full h-full object-cover" alt="Client" />
+                    <img src="/image/wab.jpg" className="w-full h-full object-cover" alt="Client" />
+                  </div>
+                  <div className="testimonial-person">
+                    <h2 className="text-xl font-semibold text-gray-800">Tom Leakar</h2>
+                    <h4 className="text-gray-500">London, UK</h4>
+                    <div className="testimonial-person-star flex mt-2">
+                      <i className="pi pi-star text-yellow-500"></i>
+                      <i className="pi pi-star text-yellow-500"></i>
+                      <i className="pi pi-star text-yellow-500"></i>
+                      <i className="pi pi-star text-yellow-500"></i>
+                      <i className="pi pi-star text-yellow-500"></i>
+                    </div>
+                  </div>
+                </div>
+                <div className="testimonial-comment">
+                  <p className="text-gray-600">
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis eaque.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="single-testimonial-box bg-white p-6 rounded-lg shadow-lg flex-shrink-0 w-full sm:w-1/3">
+              <div className="testimonial-description">
+                <div className="testimonial-info flex items-center mb-4">
+                  <div className="testimonial-img w-16 h-16 rounded-full overflow-hidden mr-4">
+                    <img src="/image/wab.jpg" className="w-full h-full object-cover" alt="Client" />
                   </div>
                   <div className="testimonial-person">
                     <h2 className="text-xl font-semibold text-gray-800">Tom Leakar</h2>
@@ -323,7 +323,7 @@ export default function Review() {
               <div className="testimonial-description">
                 <div className="testimonial-info flex items-center mb-4">
                   <div className="testimonial-img w-16 h-16 rounded-full overflow-hidden mr-4">
-                    <img src="src/assets/img/wab.jpg" className="w-full h-full object-cover" alt="Client" />
+                    <img src="/image/wab.jpg" className="w-full h-full object-cover" alt="Client" />
                   </div>
                   <div className="testimonial-person">
                     <h2 className="text-xl font-semibold text-gray-800">Tom Leakar</h2>
@@ -349,7 +349,7 @@ export default function Review() {
               <div className="testimonial-description">
                 <div className="testimonial-info flex items-center mb-4">
                   <div className="testimonial-img w-16 h-16 rounded-full overflow-hidden mr-4">
-                    <img src="src/assets/img/wab.jpg" className="w-full h-full object-cover" alt="Client" />
+                    <img src="/image/wab.jpg" className="w-full h-full object-cover" alt="Client" />
                   </div>
                   <div className="testimonial-person">
                     <h2 className="text-xl font-semibold text-gray-800">Tom Leakar</h2>
@@ -375,7 +375,7 @@ export default function Review() {
               <div className="testimonial-description">
                 <div className="testimonial-info flex items-center mb-4">
                   <div className="testimonial-img w-16 h-16 rounded-full overflow-hidden mr-4">
-                    <img src="src/assets/img/wab.jpg" className="w-full h-full object-cover" alt="Client" />
+                    <img src="/image/wab.jpg" className="w-full h-full object-cover" alt="Client" />
                   </div>
                   <div className="testimonial-person">
                     <h2 className="text-xl font-semibold text-gray-800">Tom Leakar</h2>
