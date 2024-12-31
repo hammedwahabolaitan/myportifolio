@@ -4,7 +4,7 @@ import Header from '../component/Header';
 
 const projects = [
   {
-    image: 'src/assets/img/Screenshot (78).png',
+    image: '/image/Screenshot (78).png',
     title: 'traing-studio',
     description: 'This is a web-App built with html,css,and JavaScript',
     technologies: ['html', 'css', 'JavaScript'],
@@ -12,7 +12,7 @@ const projects = [
     codeLink: 'https://github.com/hammedwahabolaitan/training-studio',
   },
   {
-    image: 'src/assets/img/Screenshot (82).png',
+    image: '/image/Screenshot (82).png',
     title: 'wabrace',
     description: 'This is a web-App built with React, JavaScript, and Tailwind',
     technologies: ['React', 'JavaScript', 'Tailwind'],
@@ -21,7 +21,7 @@ const projects = [
   },
  
   {
-    image: 'src/assets/img/Screenshot (79).png',
+    image: '/image/Screenshot (79).png',
     title: 'w3-blog',
     description: 'this is blog single page built with html,and css',
     technologies: ['HTML', 'CSS'],
@@ -30,7 +30,7 @@ const projects = [
   },
 
   {
-    image: 'src/assets/img/Screenshot (88).png',
+    image: '/image/Screenshot (88).png',
     title: 'my calculator',
     description: 'this calculator  built with html ,css, and javascript',
     technologies: ['HTML', 'CSS','javascript' ],
@@ -39,7 +39,7 @@ const projects = [
   },
 
   {
-    image: 'src/assets/img/Screenshot (87).png',
+    image: '/image/Screenshot (87).png',
     title: 'ozun',
     description: 'this is ozun single page built with html,and css',
     technologies: ['HTML', 'CSS'],
@@ -48,7 +48,7 @@ const projects = [
   },
 
   {
-    image: 'src/assets/img/Screenshot (92).png',
+    image: '/image/Screenshot (92).png',
     title: 'my blog',
     description: 'This is a dynamic blog page work with back-end built with html,css,and JavaScript && react frame work',
     technologies: ['html', 'css', 'JavaScript', 'react'],
