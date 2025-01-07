@@ -39,7 +39,7 @@ const SubHero = () => {
   }, [typedText, words]);
 
   return (
-    <section id="hero" className="relative bg-gray-900 min-h-screen flex flex-col items-center justify-center">
+    <section id="hero" className="relative bg-gray-900  min-h-screen flex flex-col items-center justify-center">
       {/* Background Video */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
@@ -51,7 +51,7 @@ const SubHero = () => {
       />
       
       {/* Overlay to darken video background */}
-      <div className="absolute top-0 left-0 w-full h-full bg-black opacity-80 z-10"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-blue-900 opacity-40 z-10"></div>
 
       {/* Content */}
       <div className="container mx-auto flex flex-col items-center justify-center text-center relative z-20" data-aos="fade-up" data-aos-delay="100">

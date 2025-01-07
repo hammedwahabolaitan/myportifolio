@@ -43,7 +43,7 @@ export default function Header() {
 
   return (
     <div>
-      <header id="sticky" className="fixed top-0 right-0 left-0 bg-[#adabab] shadow-lg z-50">
+      <header id="sticky" className="fixed top-0 right-0 left-0     bg-gray-800 text-white shadow-lg z-50">
         <div className="container mx-auto">
           <div className="flex justify-between items-center py-4">
             {/* Logo and Hamburger Icon */}
@@ -57,7 +57,7 @@ export default function Header() {
               <a href="/" className="ml-4">
                 {/* Logo */}
                 {/* <img src="src/assets/img/Screenshot (57)1.png" alt="" className='h-7' /> */}
-                <h1 className="uppercase text-3xl text-blue-700 font-serif">
+                <h1 className="uppercase text-3xl  font-serif">
                   wab<span className="text-red-700">tech</span>
                 </h1>
               </a>
@@ -72,7 +72,7 @@ export default function Header() {
               <ul className="md:flex items-center space-x-4">
                 {menuItems.map((item, index) => (
                   <li key={index} className="relative group">
-                    <a href={item.link} className="hover:underline">
+                    <a href={item.link} className=" hover:text-blue-500">
                       {item.name}
                     </a>
                     {item.subMenu && item.subMenu.length > 0 && (
@@ -96,13 +96,13 @@ export default function Header() {
 
             {/* Social Icons */}
             <div className="flex space-x-4">
-              <button className="text-gray-600 hover:text-gray-900">
+              <button className="text-blue-400 hover:text-blue-500">
                 <FaFacebook size={22} />
               </button>
-              <button className="text-gray-600 hover:text-gray-900">
+              <button className="text-blue-400 hover:text-blue-500">
                 <FaLinkedin size={22} />
               </button>
-              <button className="text-gray-600 hover:text-gray-900">
+              <button className="text-blue-400 hover:text-blue-500">
                 <FaWhatsapp size={22} />
               </button>
             </div>

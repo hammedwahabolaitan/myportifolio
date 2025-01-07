@@ -33,11 +33,11 @@ const projects = [
 const Services = () => {
   return (
     <div>
-      <section id="Services" className="px-[4%] py-[3%] text-center bg-slate-200">
-      <h1 className="auto-type lg:text-[50px] font-[500] pb-4 drop-shadow  max-sm:text-[40px] md:text-[50px] text-center font-serif">
+      <section id="Services" className="px-[4%] py-[3%] text-center bg-white">
+      <h1 className="auto-type lg:text-[50px] font-[500] pb-4 drop-shadow  max-sm:text-[40px] md:text-[50px] text-center font-serif ">
         My Work
       </h1>
-      <p className="leading-relax lg:text-[20px] text-[20px] text-[#3c406883] text-center md:text-[25px]">
+      <p className="leading-relax lg:text-[20px] text-[20px] text-[#1a1e4b9c] text-center md:text-[25px]">
         Projects I have worked on thus far demonstrating my developer skills and capabilities.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">

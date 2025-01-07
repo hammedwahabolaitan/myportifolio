@@ -1,10 +1,14 @@
 import React from 'react';
+import Footers from '../pages/Footers';
+import Header from './Header';
 
 const ContactPage = () => {
   return (
     <>
+
+    <Header />
       {/* Breadcrumb Section */}
-      <div className="bg-gray-100 py-4">
+      <div className=" py-4">
         <div className="container mx-auto">
           <div className="flex justify-between">
             <div>
@@ -144,7 +148,7 @@ const ContactPage = () => {
                 ></textarea>
               </div>
               <div>
-                <a href="https://wa.link/3qn25y"><button className="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600">
+                <a href="olaitanwahabhammed@gmail.com"><button className="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600">
                   Send Your Message
                 </button></a>
               </div>
@@ -152,7 +156,7 @@ const ContactPage = () => {
           </div>
         </div>
       </section>
-      
+      <Footers />
     </>
   );
 };
