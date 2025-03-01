@@ -1,91 +1,82 @@
-const AboutSection = () => {
-    return (
-      <section id="about" className="about section py-20 shadow-lg">
-        <div className="container mx-auto px-4" data-aos="fade-up" data-aos-delay="100">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            
-            {/* Profile Info Section */}
-            <div className="space-y-6 shadow-l">
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                <div className="col-span-1">
-                  <img
-                    src="/image/IMG_20220320_132656~2.jpg"
-                    alt="Profile"
-                    className="img-fluid rounded-lg shadow-lg h-[40vh] "
-                  />
-                </div>
-                <div className="col-span-1 space-y-2">
-                  <p><strong>Name: </strong> <span>hammed wahab</span></p>
-                  <p><strong>Profile: </strong> <span>Fullstack Web Developer</span></p>
-                  <p><strong>Email: </strong> <span className="text-blue-600"><a href="">olaitanwahabhammed@gmail.com</a></span></p>
-                  <p><strong>Phone: </strong> <span>(+234)9050220726</span></p>
-                  <p><strong>WathsApp: </strong> <span className="text-blue-600"><a href="https://wa.link/3qn25y">https://wa.link/3qn25y</a></span></p>
-                </div>
-              </div>
-  
-              {/* Skills Section */}
-              <div>
-                <h5 className="font-semibold uppercase mb-2">Skills</h5>
-                
-                {/* Skill Progress Bars */}
-                <div className="space-y-2 text-yellow-500">
-                  {/* HTML Skill */}
-                      <span className="text-xs ml-5 ">HTML 100%</span>
-                  <div className="w-full bg-gray-200 rounded-full h-2">
-                    <div className="bg-blue-500 h-2 rounded-full" style={{ width: "100%" }}>
-                    </div>
-                  </div>
-  
-                  {/* CSS Skill */}
-                      <span className="text-xs ml-5">CSS 90%</span>
-                  <div className="w-full bg-gray-200 rounded-full h-2">
-                    <div className="bg-blue-500 h-2 rounded-full" style={{ width: "90%" }}>
-                    </div>
-                  </div>
-  
-                  {/* JavaScript Skill */}
-                      <span className="text-xs ml-5">JavaScript 75%</span>
-                  <div className="w-full bg-gray-200 rounded-full h-2">
-                    <div className="bg-blue-500 h-2 rounded-full" style={{ width: "75%" }}>
-                    </div>
-                  </div>
-  
-                  {/* Photoshop Skill */}
-                      <span className="text-xs ml-5">React 80%</span>
-                  <div className="w-full bg-gray-200 rounded-full h-2">
-                    <div className="bg-blue-500 h-2 rounded-full" style={{ width: "90%" }}>
-                    </div>
-                  </div>
+import { motion } from "framer-motion";
+import profileImg from "/image/IMG_20220320_132656~2.jpg"; // Add your image here
 
-                      <span className="text-xs ml-5">nodejs 75%</span>
-                  <div className="w-full bg-gray-200 rounded-full h-2">
-                    <div className="bg-blue-500 h-2 rounded-full" style={{ width: "75%" }}>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-            {/* About Me Section */}
-            <div className="space-y-6">
-              <h4 className="font-semibold text-lg">About me</h4>
-             <span>
-             Hello! I'm Olaitan, a passionate Full-Stack Web Developer with a strong foundation in both front-end and back-end technologies. I thrive on turning complex problems into simple, user-friendly solutions and am committed to delivering high-quality, maintainable code.
+const About = () => {
+  return (
+    <section id="about" className="py-20 bg-gray-900 text-white">
+      <div className="container mx-auto px-6 flex flex-col md:flex-row items-center">
+        {/* Left - Image */}
+        <motion.div
+          initial={{ opacity: 0, x: -50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1 }}
+          className="w-full md:w-1/2 flex justify-center"
+        >
+          <img
+            src={profileImg}
+            alt="Olaitan"
+            className="w-80 h-80 object-cover rounded-2xl shadow-lg"
+          />
+        </motion.div>
 
-With expertise in frameworks like React for building dynamic user interfaces and Node.js for server-side logic, I enjoy creating seamless experiences that enhance user engagement. I have experience with databases such as MySQL and MongoDB, allowing me to design efficient data models that support robust applications.
+        {/* Right - Bio */}
+        <motion.div
+          initial={{ opacity: 0, x: 50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1 }}
+          className="w-full md:w-1/2 mt-10 md:mt-0 text-center md:text-left"
+        >
+          <h2 className="text-4xl font-bold">About Me</h2>
+          <p className="mt-4 text-gray-400">
+            I'm Olaitan, a passionate <span className="text-blue-500">Full-Stack Web Developer</span> with experience in React, Node.js, and MySQL.
+            I love building dynamic, responsive, and high-performance web applications.
+          </p>
 
-I believe in continuous learning and staying up-to-date with the latest industry trends and best practices. I am skilled in collaborating with cross-functional teams and thrive in environments that challenge my creativity and technical abilities.
+          <p className="mt-4 text-gray-400">
+            My goal is to create seamless and user-friendly digital experiences while continuously learning and improving my skills.
+          </p>
 
-When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or writing technical articles to share my knowledge with the developer community.
+          <motion.a
+            href="#contact"
+            whileHover={{ scale: 1.1 }}
+            className="mt-6 inline-block px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition"
+          >
+            Let's Connect
+          </motion.a>
+        </motion.div>
+      </div>
 
-Let’s connect and build something amazing together!
-             </span>
-            </div>
-          </div>
+      {/* Skills Section */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, delay: 0.5 }}
+        className="mt-10 container mx-auto px-6 text-center"
+      >
+        <h3 className="text-3xl font-bold">My Tech Stack</h3>
+        <div className="mt-6 grid grid-cols-2 md:grid-cols-4 gap-6">
+          {[
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "MySQL",
+            "MongoDB",
+            "Firebase",
+            "Tailwind CSS",
+            "JavaScript",
+          ].map((skill, index) => (
+            <motion.div
+              key={index}
+              whileHover={{ scale: 1.1 }}
+              className="bg-gray-800 p-4 rounded-lg shadow-md"
+            >
+              {skill}
+            </motion.div>
+          ))}
         </div>
-      </section>
-    );
-  };
-  
-  export default AboutSection;
-  
+      </motion.div>
+    </section>
+  );
+};
+
+export default About;

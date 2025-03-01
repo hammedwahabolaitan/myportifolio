@@ -1,113 +1,117 @@
-import React from 'react';
+import { motion } from "framer-motion";
 
-const ResumeSection = () => {
-  // Sample resume data
-  const resumeData = {
-    name: "HAMMED WAHAB",
-    summary: "Innovative and deadline-driven Web Designer with over 3 years of experience in designing and developing user-interface and SEO materials from initial concept to polished final deliverables.",
-    contact: {
-      address: "iyana church, iwo road, ibadan ",
-      phone: "(+234)8107450970",
-      email: "olaitanwahabhamed@gmail.com",
-    },
-    education: [
-      {
-        degree: "Master of Web Design",
-        years: "2020- 2022",
-        institution: "Rochester Institute of Technology, Rochester, NY",
-        description: "In-depth study of advanced Web design principles and practices."
-      },
-      {
-        degree: "Bachelor in soft ware developement",
-        years: "2022 - 2023",
-        institution: "Rochester Institute of Technology, Rochester, NY",
-        description: "Foundation in graphic design concepts and applications."
-      },
-    ],
-    experience: [
-      {
-        title: "Senior Web Development Specialist",
-        years: "2019 - Present",
-        company: "Experion, New York, NY",
-        responsibilities: [
-          "Lead the design, development, and implementation of API communication materials.",
-          "Delegate tasks to a team of 7 designers.",
-          "Supervise the quality assessment of all development materials.",
-          "Manage production budgets ranging from $2,000 to $25,000.",
-        ],
-      },
-      {
-        title: "Logo Design",
-        years: "2024",
-        company: "Stepping Stone Advertising, New York, NY",
-        responsibilities: [
-          "Developed various programs, including logos,",
-          "Managed multiple projects simultaneously under tight deadlines.",
-          "Advised clients on optimal graphic design solutions.",
-          "Created design presentations and proposals for clients and account managers.",
-        ],
-      },
-    ],
-  };
+const Resume = () => {
+  const resumeUrl = "/Olaitan_Resume.pdf"; // Place your resume in the public folder
 
   return (
-    <section id="resume" className="resume section py-10">
-      {/* Section Title */}
-      <div className="container mx-auto text-center mb-8" data-aos="fade-up">
-        <h2 className="text-3xl font-bold">Resume</h2>
-        <p className="text-gray-600">
-          A summary of my professional experience and educational background.
+    <section id="resume" className="py-20 bg-gray-900 text-white text-center">
+      <div className="container mx-auto px-6">
+        <motion.h2
+          initial={{ opacity: 0, y: -20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          className="text-4xl font-bold"
+        >
+          My Resume
+        </motion.h2>
+
+        <p className="mt-4 text-gray-400">
+          Click below to view my resume in your browser or download it.
         </p>
-      </div>
 
-      <div className="container mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          {/* Left Column - Summary and Education */}
-          <div data-aos="fade-up" data-aos-delay="100">
-            <h3 className="resume-title text-xl font-semibold mb-4">Summary</h3>
-            <div className="resume-item pb-6">
-              <h4 className="text-lg font-semibold">{resumeData.name}</h4>
-              <p className="text-gray-600 mb-4">
-                <em>{resumeData.summary}</em>
-              </p>
-              <ul className="list-disc list-inside text-gray-600">
-                <li>{resumeData.contact.address}</li>
-                <li>{resumeData.contact.phone}</li>
-                <li>{resumeData.contact.email}</li>
-              </ul>
-            </div>
+        {/* View Resume */}
+        <motion.a
+          href={resumeUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          whileHover={{ scale: 1.1 }}
+          className="mt-6 inline-block px-6 py-3 bg-blue-600 rounded-lg shadow-md hover:bg-blue-700 transition"
+        >
+          View Resume
+        </motion.a>
 
-            <h3 className="resume-title text-xl font-semibold mb-4">Education</h3>
-            {resumeData.education.map((edu, index) => (
-              <div className="resume-item pb-6" key={index}>
-                <h4 className="text-lg font-semibold">{edu.degree}</h4>
-                <h5 className="text-gray-500 mb-2">{edu.years}</h5>
-                <p className="text-gray-600 italic mb-2">{edu.institution}</p>
-                <p className="text-gray-600">{edu.description}</p>
-              </div>
-            ))}
-          </div>
-
-          {/* Right Column - Professional Experience */}
-          <div data-aos="fade-up" data-aos-delay="200">
-            <h3 className="resume-title text-xl font-semibold mb-4">Professional Experience</h3>
-            {resumeData.experience.map((job, index) => (
-              <div className="resume-item pb-6" key={index}>
-                <h4 className="text-lg font-semibold">{job.title}</h4>
-                <h5 className="text-gray-500 mb-2">{job.years}</h5>
-                <p className="text-gray-600 italic mb-4">{job.company}</p>
-                <ul className="list-disc list-inside text-gray-600">
-                  {job.responsibilities.map((task, taskIndex) => (
-                    <li key={taskIndex}>{task}</li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-        </div>
+        {/* Download Resume */}
+        <motion.a
+          href={resumeUrl}
+          download="Olaitan_Resume.pdf"
+          whileHover={{ scale: 1.1 }}
+          className="mt-4 inline-block px-6 py-3 bg-green-600 rounded-lg shadow-md hover:bg-green-700 transition"
+        >
+          Download Resume
+        </motion.a>
       </div>
     </section>
   );
 };
 
-export default ResumeSection;
+export default Resume;
+
+
+
+
+
+
+// import { useState } from "react";
+// import { motion } from "framer-motion";
+
+// const Resume = () => {
+//   const [resumeUrl, setResumeUrl] = useState(""); // Store uploaded resume URL
+
+//   const handleResumeUpload = (e) => {
+//     const file = e.target.files[0];
+//     if (file) {
+//       const url = URL.createObjectURL(file);
+//       setResumeUrl(url);
+//     }
+//   };
+
+//   return (
+//     <section id="resume" className="py-20 bg-gray-900 text-white text-center">
+//       <div className="container mx-auto px-6">
+//         <motion.h2
+//           initial={{ opacity: 0, y: -20 }}
+//           whileInView={{ opacity: 1, y: 0 }}
+//           transition={{ duration: 1 }}
+//           className="text-4xl font-bold"
+//         >
+//           My Resume
+//         </motion.h2>
+
+//         <p className="mt-4 text-gray-400">
+//           View or download my latest resume below.
+//         </p>
+
+//         {/* Upload Resume */}
+//         <input
+//           type="file"
+//           accept="application/pdf"
+//           onChange={handleResumeUpload}
+//           className="mt-6 text-center text-gray-300 cursor-pointer"
+//         />
+
+//         {/* View or Download Resume */}
+//         {resumeUrl && (
+//           <div className="mt-6">
+//             <iframe src={resumeUrl} className="w-full h-96 rounded-lg"></iframe>
+//             <motion.a
+//               href={resumeUrl}
+//               download="Olaitan_Resume.pdf"
+//               whileHover={{ scale: 1.1 }}
+//               className="mt-4 inline-block px-6 py-3 bg-blue-600 rounded-lg shadow-md hover:bg-blue-700 transition"
+//             >
+//               Download Resume
+//             </motion.a>
+//           </div>
+//         )}
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default Resume;
+
+
+
+
+
+
