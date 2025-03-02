@@ -16,7 +16,7 @@ const Hero = () => {
       </video>
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-55"></div>
 
       {/* Hero Content */}
       <motion.div
@@ -28,10 +28,10 @@ const Hero = () => {
         <h1 className="text-5xl font-bold">
           Hi, I'm <span className="text-blue-500">Olaitan</span>
         </h1>
-        <p className="mt-4 text-lg">Full-Stack Web Developer | React & Node.js</p>
+        <p className="mt-4 text-lg">Full-Stack Web Developer | React.js, Next.js & Node.js, Express.js</p>
 
         <motion.a
-          href="#contact"
+          href="https://wa.link/3qn25y"
           whileHover={{ scale: 1.1 }}
           className="mt-6 inline-block px-6 py-3 bg-blue-600 rounded-lg shadow-md hover:bg-blue-700 transition"
         >

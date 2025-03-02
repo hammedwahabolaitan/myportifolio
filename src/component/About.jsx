@@ -1,6 +1,26 @@
 import { motion } from "framer-motion";
 import profileImg from "/image/IMG_20220320_132656~2.jpg"; // Add your image here
 
+
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaDatabase } from "react-icons/fa";
+import { SiNextdotjs, SiExpress, SiMongodb, SiFirebase, SiTailwindcss, SiPostman } from "react-icons/si";
+
+const skills = [
+  { name: "HTML", icon: <FaHtml5 className="text-orange-500 text-4xl" /> },
+  { name: "CSS", icon: <FaCss3Alt className="text-blue-500 text-4xl" /> },
+  { name: "JavaScript", icon: <FaJs className="text-yellow-500 text-4xl" /> },
+  { name: "React.js", icon: <FaReact className="text-blue-400 text-4xl" /> },
+  { name: "Next.js", icon: <SiNextdotjs className="text-gray-300 text-4xl" /> },
+  { name: "Node.js", icon: <FaNodeJs className="text-green-500 text-4xl" /> },
+  { name: "Express.js", icon: <SiExpress className="text-gray-500 text-4xl" /> },
+  { name: "MySQL", icon: <FaDatabase className="text-blue-400 text-4xl" /> },
+  { name: "MongoDB", icon: <SiMongodb className="text-green-400 text-4xl" /> },
+  { name: "Firebase", icon: <SiFirebase className="text-yellow-400 text-4xl" /> },
+  { name: "Tailwind CSS", icon: <SiTailwindcss className="text-blue-400 text-4xl" /> },
+  { name: "Postman", icon: <SiPostman className="text-orange-400 text-4xl" /> },
+];
+
+
 const About = () => {
   return (
     <section id="about" className="py-20 bg-gray-900 text-white">
@@ -54,24 +74,13 @@ const About = () => {
         className="mt-10 container mx-auto px-6 text-center"
       >
         <h3 className="text-3xl font-bold">My Tech Stack</h3>
-        <div className="mt-6 grid grid-cols-2 md:grid-cols-4 gap-6">
-          {[
-            "React.js",
-            "Node.js",
-            "Express.js",
-            "MySQL",
-            "MongoDB",
-            "Firebase",
-            "Tailwind CSS",
-            "JavaScript",
-          ].map((skill, index) => (
-            <motion.div
-              key={index}
-              whileHover={{ scale: 1.1 }}
-              className="bg-gray-800 p-4 rounded-lg shadow-md"
-            >
-              {skill}
-            </motion.div>
+        
+        <div className="mt-10 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+          {skills.map((skill, index) => (
+            <div key={index} className="flex flex-col items-center">
+              {skill.icon}
+              <span className="mt-2 text-gray-300">{skill.name}</span>
+            </div>
           ))}
         </div>
       </motion.div>
