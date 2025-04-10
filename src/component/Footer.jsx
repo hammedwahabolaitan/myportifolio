@@ -13,7 +13,7 @@ const Footer = () => {
         <a href="https://github.com/hammedwahabolaitan" target="_blank" rel="noopener noreferrer">
           <FaGithub className="text-2xl hover:text-gray-500 transition" />
         </a>
-        <a href="https://www.facebook.com/hammedwahab.olaitan.5/groups" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
           <FaFacebook className="text-2xl hover:text-blue-600 transition" />
         </a>
         <a href="https://x.com/Hammedwaha18544" target="_blank" rel="noopener noreferrer">

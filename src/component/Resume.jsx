@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 const Resume = () => {
-  const resumeUrl = "/public/image/Hammed_Wahab_Olaitan_CV.pdf"; // Place your resume in the public folder
+  const resumeUrl = "public/image/olaitan_resume.pdf"; // Place your resume in the public folder
 
   return (
     <section id="resume" className="py-20 bg-gray-900 text-white text-center">

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import profileImg from "/image/IMG_20220320_132656~2.jpg"; // Add your image here
+import profileImg from "/image/ohwcar.jpg"; // Add your image here
 
 
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaDatabase } from "react-icons/fa";

@@ -9,6 +9,7 @@ import About from "./component/About";
 import Resume from "./component/Resume";
 import Reviews from "./component/Reviews";
 import Footer from "./component/Footer";
+import Modal from "./component/Modal";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ const HomePage = () => {
       <Projects />
       <Reviews />
       <Contact />
+      <Modal />
       <Footer />
       <ToastContainer position="top-center" autoClose={3000} />
     </div>
