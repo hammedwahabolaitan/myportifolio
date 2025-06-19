@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://myportifolio-tau-umber.vercel.app/sitemap.xml

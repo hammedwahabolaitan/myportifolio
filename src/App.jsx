@@ -11,6 +11,10 @@ import Reviews from "./component/Reviews";
 import Footer from "./component/Footer";
 import Modal from "./component/Modal";
 
+import { Helmet } from 'react-helmet';
+
+
+
 function App() {
   return (
     <Router>
@@ -27,6 +31,10 @@ function App() {
 const HomePage = () => {
   return (
     <div>
+      <Helmet>
+  <title>Projects – Hammed Wahab Olaitan</title>
+  <meta name="description" content="Explore full-stack projects built with React, Node.js, MySQL, and Firebase." />
+</Helmet>
       <Hero />
       <About />     
       <Resume />

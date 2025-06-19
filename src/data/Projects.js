@@ -108,15 +108,15 @@ const projects = [
       repoLink: "https://github.com/yourgithub/chatapp",
       tech: ["React", "Node.js", "MySQL"],
     },
-    // {
-    //   id: 10,
-    //   title: "Portfolio Website",
-    //   description: "My personal developer portfolio with animations.",
-    //   image: "/image/portfolio.png",
-    //   liveLink: "https://myportfolio.vercel.app",
-    //   repoLink: "https://github.com/yourgithub/portfolio",
-    //   tech: ["React", "Framer Motion", "Tailwind CSS"],
-    // },
+    {
+      id: 10,
+      title: "Portfolio Website",
+      description: "My personal developer portfolio with animations.",
+      image: "/image/portfolio.png",
+      liveLink: "https://upworkclone.vercel.app/",
+      repoLink: "https://github.com/hammedwahabolaitan/upwork-clone",
+      tech: ["React", "Framer Motion", "Tailwind CSS"],
+    },
   ];
   
   export default projects;
