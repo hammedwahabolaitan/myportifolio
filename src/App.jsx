@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import Navbar from "./component/Navbar";
 import Hero from "./component/Hero";
-import Projects from "./component/Projects";
 import { ToastContainer } from "react-toastify";
 import Contact from "./component/Contact";
 import About from "./component/About";
@@ -12,6 +11,7 @@ import Footer from "./component/Footer";
 import Modal from "./component/Modal";
 
 import { Helmet } from 'react-helmet';
+import Project from "./component/project";
 
 
 
@@ -32,13 +32,13 @@ const HomePage = () => {
   return (
     <div>
       <Helmet>
-  <title>Projects – Hammed Wahab Olaitan</title>
+  <title>portifolio- Hammed Wahab Olaitan</title>
   <meta name="description" content="Explore full-stack projects built with React, Node.js, MySQL, and Firebase." />
 </Helmet>
       <Hero />
       <About />     
       <Resume />
-      <Projects />
+      <Project />
       <Reviews />
       <Contact />
       <Modal />

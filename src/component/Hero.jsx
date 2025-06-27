@@ -3,7 +3,7 @@ import heroVideo from "/image/hero-bg.mp4"; // Add your video here
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen flex items-center justify-center bg-gray-900 text-white">
+    <section id="home" className="relative w-full h-screen flex items-center justify-center bg-gray-900 text-white">
 
       {/* Video Background */}
       <video
@@ -26,7 +26,7 @@ const Hero = () => {
         className="text-center z-10"
       >
         <h1 className="text-5xl font-bold">
-          Hi, I'm <span className="text-blue-500">Olaitan</span>
+          Hi, I'm <span className="text-blue-500">Hammed Wahab Olaitan</span>
         </h1>
         <p className="mt-4 text-lg">Full-Stack Web Developer | React.js, Next.js & Node.js, Express.js</p>
 

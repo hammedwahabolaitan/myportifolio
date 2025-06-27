@@ -7,14 +7,14 @@ const reviews = [
     company: "Tech Solutions Inc.",
   },
   {
-    name: "Jane Smith",
-    feedback: "Great experience working with Olaitan. Highly skilled and professional.",
-    company: "Creative Web Studio",
+    name: "Yusuf Azeez",
+    feedback: "Great experience working with Wahab. Highly skilled and professional.",
+    company: "Yusluv Interior",
   },
   {
     name: "Michael Johnson",
     feedback: "Highly recommend! The website was smooth, responsive, and exceeded expectations.",
-    company: "Startup Hub",
+    company: "LINE GURU",
   },
 ];
 

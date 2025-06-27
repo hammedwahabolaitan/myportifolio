@@ -7,9 +7,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full bg-gray-900 text-white p-4 shadow-lg z-50">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="uppercase text-3xl  font-serif">
-                  wab<span className="text-blue-500">tech</span>
-                </h1>
+       <a href="/"> <h1 id="/" className="uppercase text-3xl  font-serif"> wab<span className="text-blue-500">tech</span></h1></a>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6">
