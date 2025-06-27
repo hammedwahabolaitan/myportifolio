@@ -9,7 +9,6 @@ import Resume from "./component/Resume";
 import Reviews from "./component/Reviews";
 import Footer from "./component/Footer";
 import Modal from "./component/Modal";
-
 import { Helmet } from 'react-helmet';
 import Project from "./component/project";
 

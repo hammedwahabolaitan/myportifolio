@@ -3,21 +3,22 @@ import { motion } from 'framer-motion';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+// import { SpeedInsights } from "@vercel/speed-insights/next"
 const project = () => {
   const allProjects = [
     {
       title: 'Yusluv-Interior',
-      description: 'yusluv interior and Design dynamic website',
-      demoUrl: 'https://bd-parcel-management.web.app/',
-      codeUrl: 'https://github.com/mahizaman490/assignment-12-client-side-',
+      description: 'Premium interior design services transforming spaces into functional and beautiful environments.',
+      demoUrl: 'https://yusluv-interior.vercel.app/',
+      codeUrl: 'https://github.com/hammedwahabolaitan/yusluv-interior-glow',
       screenshot: '/image/Screenshot (164).png',
       tech: ['React', 'Firebase', 'Tailwind CSS'],
     },
     {
       title: 'LINE-GURU',
-      description: 'Betting website built with React, Firebase, and Tailwind CSS..',
-      demoUrl: 'https://multikart-kappa.vercel.app/',
-      codeUrl: 'https://github.com/hammedwahabolaitan/multikart',
+      description: 'Line Guru Pro is a premier betting platform offering a wide range of sports betting markets, live betting, casino games, and more. Bet responsibly with our secure and reliable platform.',
+      demoUrl: 'https://line-guru-pro.vercel.app/',
+      codeUrl: 'https://github.com/hammedwahabolaitan/Line-Guru',
       screenshot: '/image/Screenshot (161).png',
       tech: ['React', 'Firebase', "Tailwind CSS", 'Framer Motion'],
     },
@@ -31,10 +32,18 @@ const project = () => {
       tech: ['React',"NODE","mysql", 'Firebase', "Tailwind CSS"],
     },
     {
+      title: 'OWU-CROWN-HOTEL',
+      description: 'Owucrown Hotel, where every moment becomes a cherished memory in the heart of Abeokuta.',
+      demoUrl: 'https://owu-crown-hotel.vercel.app/',
+      codeUrl: 'https://github.com/hammedwahabolaitan/owu-crown-hotel',
+      screenshot: '/image/Screenshot (191).png',
+      tech: ['React',"NODE","mysql", 'Firebase', "Tailwind CSS"],
+    },
+    {
       title: 'WAB-VTU',
       description: 'Top-Up website built with React, Firebase, and Tailwind CSS..',
-      demoUrl: 'https://multikart-kappa.vercel.app/',
-      codeUrl: 'https://github.com/hammedwahabolaitan/multikart',
+      demoUrl: 'https://lovable.dev/projects/9f3c8429-704b-4252-ab26-43ffa1dab145',
+      codeUrl: 'https://github.com/hammedwahabolaitan/wab-vtu-connect',
       screenshot: '/image/Screenshot (168).png',
       tech: ['React', 'Firebase', "Tailwind CSS", 'Framer Motion'],
     },
