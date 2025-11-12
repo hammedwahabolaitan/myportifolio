@@ -8,7 +8,7 @@ import About from "./component/About";
 import Resume from "./component/Resume";
 import Reviews from "./component/Reviews";
 import Footer from "./component/Footer";
-import Modal from "./component/Modal";
+// import Modal from "./component/Modal";
 import { Helmet } from 'react-helmet';
 import Project from "./component/project";
 
@@ -40,7 +40,7 @@ const HomePage = () => {
       <Project />
       <Reviews />
       <Contact />
-      <Modal />
+      {/* <Modal /> */}
       <Footer />
       <ToastContainer position="top-center" autoClose={3000} />
     </div>
