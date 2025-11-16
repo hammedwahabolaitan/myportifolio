@@ -48,8 +48,13 @@ const About = () => {
         >
           <h2 className="text-4xl font-bold">About Me</h2>
           <p className="mt-4 text-gray-400">
-            I'm Olaitan, a passionate <span className="text-blue-500">Full-Stack Web Developer</span> with experience in React, Node.js, and MySQL.
-            I love building dynamic, responsive, and high-performance web applications.
+            I'm a passionate Full-Stack Developer with expertise in building modern, high-performance web applications. With a strong foundation in both frontend and backend technologies, I create seamless digital experiences that combine beautiful design with robust functionality.
+
+My journey in web development has led me to master technologies like React, Next.js, Node.js, and Tailwind CSS. I specialize in creating responsive, SEO-optimized applications that not only look great but also deliver exceptional performance and user experience.
+
+I'm passionate about writing clean, maintainable code and staying up-to-date with the latest web technologies. Whether it's optimizing site performance, implementing complex features, or designing intuitive interfaces, I approach every project with dedication and attention to detail.
+
+🌍 Available for remote international roles.
           </p>
 
           <p className="mt-4 text-gray-400">

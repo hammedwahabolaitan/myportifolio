@@ -6,6 +6,15 @@ import 'slick-carousel/slick/slick-theme.css';
 // import { SpeedInsights } from "@vercel/speed-insights/next"
 const project = () => {
   const allProjects = [
+
+    {
+      title: 'Odeji Pharmacy Web App',
+      description: ' Pharmacy management system for efficient operations and customer service.',
+      demoUrl: 'https://odejipharmacy.vercel.app/',
+      codeUrl: 'https://github.com/hammedwahabolaitan/ODEJI-PHARMACY-AND-STORE',
+      screenshot: '/image/Screenshot (197).png',
+      tech: ['React', 'Firebase', 'Tailwind CSS'],
+    },
     {
       title: 'Yusluv-Interior',
       description: 'Premium interior design services transforming spaces into functional and beautiful environments.',

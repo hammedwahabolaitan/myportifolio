@@ -26,10 +26,25 @@ const Hero = () => {
         className="text-center z-10"
       >
         <h1 className="text-5xl font-bold">
-          Hi, I'm <span className="text-blue-500">Hammed Wahab Olaitan</span>
+          Hi, I'm <span className="text-blue-500">Hammed Wahab</span>
         </h1>
-        <p className="mt-4 text-lg">Full-Stack Web Developer | React.js, Next.js & Node.js, Express.js</p>
-
+          <motion.p
+            className="text-xl md:text-2xl text-muted-foreground mb-4"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.4, duration: 0.8 }}
+          >
+           <h3> Full-Stack Developer</h3>
+          </motion.p>
+          
+          <motion.p
+            className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.6, duration: 0.8 }}
+          >
+            Building fast, scalable, and user-focused web apps with React, Next.js, and Node.js
+          </motion.p>
         <motion.a
           href="https://wa.link/3qn25y"
           whileHover={{ scale: 1.1 }}

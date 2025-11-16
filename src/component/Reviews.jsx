@@ -1,9 +1,14 @@
 import { motion } from "framer-motion";
 
 const reviews = [
+   {
+    name: "Dr. Adeola Odeji",
+    feedback: "Hammed's expertise in web development is outstanding. He optimized our pharmacy website, improving load times by 70% and significantly enhancing user experience",
+    company: "Owner, Odeji Pharmacy",
+  },
   {
     name: "John Doe",
-    feedback: "Olaitan is an exceptional developer! The project was delivered on time with outstanding quality.",
+    feedback: "Wahab is an exceptional developer! The project was delivered on time with outstanding quality.",
     company: "Tech Solutions Inc.",
   },
   {
@@ -11,12 +16,7 @@ const reviews = [
     feedback: "Great experience working with Wahab. Highly skilled and professional.",
     company: "Yusluv Interior",
   },
-  {
-    name: "Michael Johnson",
-    feedback: "Highly recommend! The website was smooth, responsive, and exceeded expectations.",
-    company: "LINE GURU",
-  },
-];
+ ];
 
 const Reviews = () => {
   return (
